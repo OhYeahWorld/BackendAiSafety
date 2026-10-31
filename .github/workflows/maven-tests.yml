@@ -1,0 +1,30 @@
+name: Maven tests
+
+on:
+  push:
+    branches:
+      - main
+      - "feat/**"
+      - "fix/**"
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Java 21 / Maven test suite
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+      - name: Run tests
+        run: ./mvnw --batch-mode --no-transfer-progress test
+      - name: Compile experiment runner
+        run: javac -Xlint:all tools/RagExperimentRunner.java

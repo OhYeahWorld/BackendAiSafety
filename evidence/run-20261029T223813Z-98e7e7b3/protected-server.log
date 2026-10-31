@@ -1,0 +1,96 @@
+[INFO] Scanning for projects...
+[INFO] Loaded 24294 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] --------------------< rea.ajdamir:BackendAiSafety >---------------------
+[INFO] Building BackendAiSafety 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.2:run (default-cli) > test-compile @ BackendAiSafety >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ BackendAiSafety ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ BackendAiSafety ---
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ BackendAiSafety ---
+[INFO] skip non existing resourceDirectory /Users/ajdamir/Documents/Codes/Java/BackendAiSafety/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ BackendAiSafety ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.1.2:run (default-cli) < test-compile @ BackendAiSafety <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.2:run (default-cli) @ BackendAiSafety ---
+[INFO] Loaded 50 auto-discovered prefixes for remote repository ow2-snapshot (prefixes-ow2-snapshot.txt)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-30T01:53:48.990+03:00  INFO 7451 --- [BackendAiSafety] [           main] r.a.b.BackendAiSafetyApplication         : Starting BackendAiSafetyApplication using Java 21.0.12.1 with PID 7451 (/Users/ajdamir/Documents/Codes/Java/BackendAiSafety/target/classes started by ajdamir in /Users/ajdamir/Documents/Codes/Java/BackendAiSafety)
+2026-10-30T01:53:48.995+03:00  INFO 7451 --- [BackendAiSafety] [           main] r.a.b.BackendAiSafetyApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T01:53:49.721+03:00  INFO 7451 --- [BackendAiSafety] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-30T01:53:49.732+03:00  INFO 7451 --- [BackendAiSafety] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T01:53:49.732+03:00  INFO 7451 --- [BackendAiSafety] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-30T01:53:49.771+03:00  INFO 7451 --- [BackendAiSafety] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 746 ms
+2026-10-30T01:53:50.324+03:00  INFO 7451 --- [BackendAiSafety] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-10-30T01:53:50.426+03:00  INFO 7451 --- [BackendAiSafety] [           main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-10-30T01:53:50.746+03:00  INFO 7451 --- [BackendAiSafety] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-30T01:53:50.751+03:00  INFO 7451 --- [BackendAiSafety] [           main] r.a.b.BackendAiSafetyApplication         : Started BackendAiSafetyApplication in 1.987 seconds (process running for 2.19)
+2026-10-30T01:53:51.050+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-30T01:53:51.050+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-30T01:53:51.051+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-30T01:53:51.663+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=ae12d71e-ac2e-48f9-8fdb-d4a66a576cde, mode=protected, user=alice, promptLength=11
+2026-10-30T01:53:51.666+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-30T01:53:51.765+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c3cb73
+2026-10-30T01:53:51.766+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-30T01:53:51.784+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=ae12d71e-ac2e-48f9-8fdb-d4a66a576cde document(s)=1
+2026-10-30T01:53:51.791+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : Instruction-like content filtered requestId=ae12d71e-ac2e-48f9-8fdb-d4a66a576cde from 1 document(s)
+2026-10-30T01:53:51.791+03:00  WARN 7451 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG context refused requestId=ae12d71e-ac2e-48f9-8fdb-d4a66a576cde reason=INSTRUCTION_LIKE_CONTENT
+2026-10-30T01:53:52.077+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=c4918b50-adf3-46b8-bb44-cd28d907f8f0, mode=protected, user=alice, promptLength=12
+2026-10-30T01:53:52.082+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=c4918b50-adf3-46b8-bb44-cd28d907f8f0 document(s)=1
+2026-10-30T01:53:52.083+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : Instruction-like content filtered requestId=c4918b50-adf3-46b8-bb44-cd28d907f8f0 from 1 document(s)
+2026-10-30T01:53:52.083+03:00  WARN 7451 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG context refused requestId=c4918b50-adf3-46b8-bb44-cd28d907f8f0 reason=INSTRUCTION_LIKE_CONTENT
+2026-10-30T01:53:52.354+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=26237de6-4abf-437f-83dc-84112728b320, mode=protected, user=alice, promptLength=9
+2026-10-30T01:53:52.357+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=26237de6-4abf-437f-83dc-84112728b320 document(s)=1
+2026-10-30T01:53:52.358+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : Instruction-like content filtered requestId=26237de6-4abf-437f-83dc-84112728b320 from 1 document(s)
+2026-10-30T01:53:52.358+03:00  WARN 7451 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG context refused requestId=26237de6-4abf-437f-83dc-84112728b320 reason=INSTRUCTION_LIKE_CONTENT
+2026-10-30T01:53:52.628+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=105cc7a4-3d7a-4b42-ac2b-93e6b4fae209, mode=protected, user=alice, promptLength=11
+2026-10-30T01:53:52.634+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=105cc7a4-3d7a-4b42-ac2b-93e6b4fae209 document(s)=1
+2026-10-30T01:53:52.634+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : Instruction-like content filtered requestId=105cc7a4-3d7a-4b42-ac2b-93e6b4fae209 from 1 document(s)
+2026-10-30T01:53:52.634+03:00  WARN 7451 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG context refused requestId=105cc7a4-3d7a-4b42-ac2b-93e6b4fae209 reason=INSTRUCTION_LIKE_CONTENT
+2026-10-30T01:53:52.904+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-1] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=6b063141-84d0-49f1-a648-38aabc1a44dd, mode=protected, user=alice, promptLength=12
+2026-10-30T01:53:52.908+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-1] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=6b063141-84d0-49f1-a648-38aabc1a44dd document(s)=1
+2026-10-30T01:53:52.909+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-1] r.ajdamir.backendaisafety.AiController   : Instruction-like content filtered requestId=6b063141-84d0-49f1-a648-38aabc1a44dd from 1 document(s)
+2026-10-30T01:53:52.909+03:00  WARN 7451 --- [BackendAiSafety] [nio-8080-exec-1] r.ajdamir.backendaisafety.AiController   : RAG context refused requestId=6b063141-84d0-49f1-a648-38aabc1a44dd reason=INSTRUCTION_LIKE_CONTENT
+2026-10-30T01:53:53.177+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=10e3bb11-1059-420c-9c9f-71d88fcc97f5, mode=protected, user=alice, promptLength=9
+2026-10-30T01:53:53.181+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=10e3bb11-1059-420c-9c9f-71d88fcc97f5 document(s)=1
+2026-10-30T01:53:53.181+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : Instruction-like content filtered requestId=10e3bb11-1059-420c-9c9f-71d88fcc97f5 from 1 document(s)
+2026-10-30T01:53:53.181+03:00  WARN 7451 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG context refused requestId=10e3bb11-1059-420c-9c9f-71d88fcc97f5 reason=INSTRUCTION_LIKE_CONTENT
+2026-10-30T01:53:53.452+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=3da62bd4-4794-4e14-a9c8-d59b22e7fedd, mode=protected, user=alice, promptLength=11
+2026-10-30T01:53:53.456+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=3da62bd4-4794-4e14-a9c8-d59b22e7fedd document(s)=1
+2026-10-30T01:53:53.457+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : Instruction-like content filtered requestId=3da62bd4-4794-4e14-a9c8-d59b22e7fedd from 1 document(s)
+2026-10-30T01:53:53.457+03:00  WARN 7451 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG context refused requestId=3da62bd4-4794-4e14-a9c8-d59b22e7fedd reason=INSTRUCTION_LIKE_CONTENT
+2026-10-30T01:53:53.725+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=bafb99de-331d-4ce9-9dfe-92956064854b, mode=protected, user=alice, promptLength=12
+2026-10-30T01:53:53.729+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=bafb99de-331d-4ce9-9dfe-92956064854b document(s)=1
+2026-10-30T01:53:53.730+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : Instruction-like content filtered requestId=bafb99de-331d-4ce9-9dfe-92956064854b from 1 document(s)
+2026-10-30T01:53:53.730+03:00  WARN 7451 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG context refused requestId=bafb99de-331d-4ce9-9dfe-92956064854b reason=INSTRUCTION_LIKE_CONTENT
+2026-10-30T01:53:53.998+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=1b781207-c3bd-461e-994a-78563f36b0c8, mode=protected, user=alice, promptLength=9
+2026-10-30T01:53:54.002+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=1b781207-c3bd-461e-994a-78563f36b0c8 document(s)=1
+2026-10-30T01:53:54.003+03:00  INFO 7451 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : Instruction-like content filtered requestId=1b781207-c3bd-461e-994a-78563f36b0c8 from 1 document(s)
+2026-10-30T01:53:54.003+03:00  WARN 7451 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG context refused requestId=1b781207-c3bd-461e-994a-78563f36b0c8 reason=INSTRUCTION_LIKE_CONTENT
+2026-10-30T01:53:54.033+03:00  INFO 7451 --- [BackendAiSafety] [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-30T01:53:54.038+03:00  INFO 7451 --- [BackendAiSafety] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-30T01:53:54.041+03:00  INFO 7451 --- [BackendAiSafety] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-30T01:53:54.042+03:00  INFO 7451 --- [BackendAiSafety] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,100 @@
+[INFO] Scanning for projects...
+[INFO] Loaded 24294 auto-discovered prefixes for remote repository central (prefixes-central.txt)
+[INFO] 
+[INFO] --------------------< rea.ajdamir:BackendAiSafety >---------------------
+[INFO] Building BackendAiSafety 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.2:run (default-cli) > test-compile @ BackendAiSafety >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ BackendAiSafety ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ BackendAiSafety ---
+[INFO] Loaded 74 auto-discovered prefixes for remote repository apache.snapshots (prefixes-apache.snapshots.txt)
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 19 source files with javac [debug parameters release 21] to target/classes
+[INFO] /Users/ajdamir/Documents/Codes/Java/BackendAiSafety/src/main/java/rea/ajdamir/backendaisafety/AiController.java: Some input files use or override a deprecated API.
+[INFO] /Users/ajdamir/Documents/Codes/Java/BackendAiSafety/src/main/java/rea/ajdamir/backendaisafety/AiController.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ BackendAiSafety ---
+[INFO] skip non existing resourceDirectory /Users/ajdamir/Documents/Codes/Java/BackendAiSafety/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ BackendAiSafety ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 7 source files with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:4.1.2:run (default-cli) < test-compile @ BackendAiSafety <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.2:run (default-cli) @ BackendAiSafety ---
+[INFO] Loaded 50 auto-discovered prefixes for remote repository ow2-snapshot (prefixes-ow2-snapshot.txt)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.2)
+
+2026-10-30T02:28:06.092+03:00  INFO 9022 --- [BackendAiSafety] [           main] r.a.b.BackendAiSafetyApplication         : Starting BackendAiSafetyApplication using Java 21.0.12.1 with PID 9022 (/Users/ajdamir/Documents/Codes/Java/BackendAiSafety/target/classes started by ajdamir in /Users/ajdamir/Documents/Codes/Java/BackendAiSafety)
+2026-10-30T02:28:06.097+03:00  INFO 9022 --- [BackendAiSafety] [           main] r.a.b.BackendAiSafetyApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-10-30T02:28:06.829+03:00  INFO 9022 --- [BackendAiSafety] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-30T02:28:06.840+03:00  INFO 9022 --- [BackendAiSafety] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-30T02:28:06.840+03:00  INFO 9022 --- [BackendAiSafety] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-10-30T02:28:06.878+03:00  INFO 9022 --- [BackendAiSafety] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 754 ms
+2026-10-30T02:28:07.372+03:00  INFO 9022 --- [BackendAiSafety] [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-10-30T02:28:07.472+03:00  INFO 9022 --- [BackendAiSafety] [           main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page: class path resource [static/index.html]
+2026-10-30T02:28:07.766+03:00  INFO 9022 --- [BackendAiSafety] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-30T02:28:07.770+03:00  INFO 9022 --- [BackendAiSafety] [           main] r.a.b.BackendAiSafetyApplication         : Started BackendAiSafetyApplication in 1.904 seconds (process running for 2.114)
+2026-10-30T02:28:08.783+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-30T02:28:08.783+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-30T02:28:08.784+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-30T02:28:09.421+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=9bb3ab31-5e75-4b9e-b66d-96205cd78a99, mode=unsafe, user=alice, promptLength=11
+2026-10-30T02:28:09.424+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-30T02:28:09.523+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a9b911b
+2026-10-30T02:28:09.524+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-30T02:28:09.545+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=9bb3ab31-5e75-4b9e-b66d-96205cd78a99 document(s)=1
+2026-10-30T02:28:09.546+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG context prepared requestId=9bb3ab31-5e75-4b9e-b66d-96205cd78a99
+2026-10-30T02:28:40.917+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : AI request completed successfully requestId=9bb3ab31-5e75-4b9e-b66d-96205cd78a99
+2026-10-30T02:28:41.249+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=3e054bfb-e516-4497-b037-60a8a0890510, mode=unsafe, user=alice, promptLength=12
+2026-10-30T02:28:41.262+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=3e054bfb-e516-4497-b037-60a8a0890510 document(s)=1
+2026-10-30T02:28:41.262+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG context prepared requestId=3e054bfb-e516-4497-b037-60a8a0890510
+2026-10-30T02:29:13.143+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : AI request completed successfully requestId=3e054bfb-e516-4497-b037-60a8a0890510
+2026-10-30T02:29:13.547+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=c16c0b1e-15c3-415d-bf58-40cf593a7f6f, mode=unsafe, user=alice, promptLength=9
+2026-10-30T02:29:13.556+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=c16c0b1e-15c3-415d-bf58-40cf593a7f6f document(s)=1
+2026-10-30T02:29:13.556+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG context prepared requestId=c16c0b1e-15c3-415d-bf58-40cf593a7f6f
+2026-10-30T02:29:47.704+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : AI request completed successfully requestId=c16c0b1e-15c3-415d-bf58-40cf593a7f6f
+2026-10-30T02:29:48.075+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=3cf858d7-f3b0-48da-9150-226eb4aec28e, mode=unsafe, user=alice, promptLength=11
+2026-10-30T02:29:48.085+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=3cf858d7-f3b0-48da-9150-226eb4aec28e document(s)=1
+2026-10-30T02:29:48.085+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG context prepared requestId=3cf858d7-f3b0-48da-9150-226eb4aec28e
+2026-10-30T02:30:11.869+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : AI request completed successfully requestId=3cf858d7-f3b0-48da-9150-226eb4aec28e
+2026-10-30T02:30:12.160+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-1] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=049099b0-5e7f-44ca-8198-4ac40d951f7c, mode=unsafe, user=alice, promptLength=12
+2026-10-30T02:30:12.170+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-1] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=049099b0-5e7f-44ca-8198-4ac40d951f7c document(s)=1
+2026-10-30T02:30:12.171+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-1] r.ajdamir.backendaisafety.AiController   : RAG context prepared requestId=049099b0-5e7f-44ca-8198-4ac40d951f7c
+2026-10-30T02:30:44.459+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-1] r.ajdamir.backendaisafety.AiController   : AI request completed successfully requestId=049099b0-5e7f-44ca-8198-4ac40d951f7c
+2026-10-30T02:30:44.800+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=85f4565f-694a-4bb7-8170-e50de698aeb1, mode=unsafe, user=alice, promptLength=9
+2026-10-30T02:30:44.809+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=85f4565f-694a-4bb7-8170-e50de698aeb1 document(s)=1
+2026-10-30T02:30:44.809+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : RAG context prepared requestId=85f4565f-694a-4bb7-8170-e50de698aeb1
+2026-10-30T02:31:20.654+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-3] r.ajdamir.backendaisafety.AiController   : AI request completed successfully requestId=85f4565f-694a-4bb7-8170-e50de698aeb1
+2026-10-30T02:31:20.988+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=dc480ac4-3802-49fa-a87d-51d40846a753, mode=unsafe, user=alice, promptLength=11
+2026-10-30T02:31:20.993+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=dc480ac4-3802-49fa-a87d-51d40846a753 document(s)=1
+2026-10-30T02:31:20.993+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : RAG context prepared requestId=dc480ac4-3802-49fa-a87d-51d40846a753
+2026-10-30T02:31:50.406+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-5] r.ajdamir.backendaisafety.AiController   : AI request completed successfully requestId=dc480ac4-3802-49fa-a87d-51d40846a753
+2026-10-30T02:31:50.724+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=1808590b-64c1-495f-95ee-2f2bc62ac261, mode=unsafe, user=alice, promptLength=12
+2026-10-30T02:31:50.731+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=1808590b-64c1-495f-95ee-2f2bc62ac261 document(s)=1
+2026-10-30T02:31:50.731+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : RAG context prepared requestId=1808590b-64c1-495f-95ee-2f2bc62ac261
+2026-10-30T02:32:25.231+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-7] r.ajdamir.backendaisafety.AiController   : AI request completed successfully requestId=1808590b-64c1-495f-95ee-2f2bc62ac261
+2026-10-30T02:32:25.602+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG experiment requestId=b47f2826-9243-4bb5-a972-cc24d073d07e, mode=unsafe, user=alice, promptLength=9
+2026-10-30T02:32:25.609+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG retrieved requestId=b47f2826-9243-4bb5-a972-cc24d073d07e document(s)=1
+2026-10-30T02:32:25.609+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : RAG context prepared requestId=b47f2826-9243-4bb5-a972-cc24d073d07e
+2026-10-30T02:33:00.438+03:00  INFO 9022 --- [BackendAiSafety] [nio-8080-exec-9] r.ajdamir.backendaisafety.AiController   : AI request completed successfully requestId=b47f2826-9243-4bb5-a972-cc24d073d07e
+2026-10-30T02:33:00.494+03:00  INFO 9022 --- [BackendAiSafety] [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-30T02:33:00.506+03:00  INFO 9022 --- [BackendAiSafety] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-30T02:33:00.514+03:00  INFO 9022 --- [BackendAiSafety] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-30T02:33:00.519+03:00  INFO 9022 --- [BackendAiSafety] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
